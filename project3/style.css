@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo_image{
+    margin: 5px;
+    width: 7rem;
+    height: 4rem;
+
+}
+.title{
+
+    background-color: rgb(236, 236, 170);
+    margin-left: 34%;
+    display: inline-block;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    border-radius: 15rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ragistration{
+    float: right;
+    list-style-type: none;
+    margin-top: 2%;
+    
+}
+.ragistration li{
+    border: 2px solid rosybrown;
+    padding: 0.3rem;
+    border-radius: 13px;
+    margin-right: 10px;
+    display: inline;
+    width: 25%;
+}
+.ragistration li:nth-child(2)
+{
+    background-color: rgb(209, 209, 162);
+}
+.ragistration li a{
+    text-decoration: none;
+}
+.niv{
+    background-color: greenyellow;
+    height: 2rem;
+}
+.niv h1{
+    display: inline;
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 5px;
+    padding: 0;
+}
+.niv ul{
+    list-style-type: none;
+}
+.niv ul li{
+    margin-left: -0.1rem;
+    display: inline;
+}
+.niv select{
+    width: 10%;
+}
+.niv input
+{
+   width:  16%;
+   height: 1.5rem;
+}
+.niv button{
+    background-color: green;
+    padding: 0.4% 0.5% 0.4% 0.5%;
+    color: aliceblue;
+    border-radius: 20%;
+}
+.niv h2{
+    height: 40px;
+    float: right;
+    display: inline;
+    border: 3px solid whitesmoke;
+    background-color: rgb(47, 114, 8);
+    color: rgb(253, 253, 253);
+    
+}
+.main-menu{
+    margin-top: 4px;
+    display: inline;
+    float: left;
+
+}
+.main-menu a{
+    
+    text-decoration: none;
+    border: 0px solid #555;
+    background-color: rgb(164, 164, 248);
+    padding: 7px;
+    position: relative;
+}
+.main-menu a:hover{
+    background-color: rgb(238, 238, 170) ;
+}
+#f-div{
+    overflow-x: scroll;
+    background-color: rgb(152, 240, 243);
+}
+.f-div{
+    overflow-x: scroll;
+    height: 9rem;
+}
+.pro-img{
+    height: 100px;
+    width: 15%;
+}
+.pro-div{
+    white-space: nowrap;
+    height: 7rem;
+    width: 15%;
+    box-shadow: 10px gray;
+    border: 2px solid rgb(255, 117, 255);
+    border: 5px solid white;
+    display: inline-block;
+    
+}
+.pro-div img{
+    height: 90%;
+    width: 75%;
+    display: block;
+}
+.f-div a{
+    box-shadow: 2px lightgray;
+    margin: 0;
+    padding: 5% 10% 5% 10%;
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+}
+.pro-title{
+    display: inline;
+    background-color: #555;
+    text-align: center;
+}
+.adv-lis{
+    list-style-type: none;
+}
+.adv-lis li{
+    display: inline;
+}
+footer{
+    height: 10rem;
+    background-color: darkolivegreen;
+}
+footer ul{
+    list-style-type: none;
+}
+footer h4{
+    display: inline;
+}
+footer ul li{
+    display: inline;
+    margin-left: 20px;
+}
+footer ul li a{
+    color: aliceblue;
+}
