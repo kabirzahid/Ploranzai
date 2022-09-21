@@ -26,6 +26,28 @@
         .te{
             display: inline;
         }
+        .aaa{
+            display: inline;
+            text-align:center;
+        }
+        .im{
+            display: inline;
+            height: 20rem;
+            width: 40%;
+        }
+        .for{
+            border: 2px solid rgb(19, 29, 19);
+            margin-top: 5rem;
+        }
+        .ull{
+            list-style-type: none;
+        }
+        .ull li{
+            display: inline;
+        }
+        .mod{
+            color: black;
+        }
     
     @media screen and (max-width:670px){
         header{
@@ -45,22 +67,44 @@
                     <i class="material-icons ">menu</i>
                 </a>
                 <ul>
-                    <li><i class="material-icons ">search</i></li>
+                    <li><a href="#searchh" class="btn orange modal-trigger">search</a>
+                    <div class="modal mod" id="searchh">
+                        <div class="modal-comtent">
+                            <h3 >what do you want to search</h3>
+                            <label for="">Search</label>
+                            <input type="text"  placeholder="what do you need">
+                            <label for="">Category</label>
+                        </div>
+                        <div class="modal-footer">
+                            <section>
+                                <option value="">Electronic</option>
+                                <option value="">irons</option>
+                                <option value="">Vichels</option>
+                            </section>
+                            <label for="">province</label>
+                            <section>
+                                <option value="">Kandahar</option>
+                                <option value="">Helmand</option>
+                                <option value="">Herath</option>
+                            </section>
+                        </div>
+                    </div>
+                </li>
                 </ul>
             </nav>
-            <ul class="hide-on-med-and-down " >
-                <li>
-                    <a href="#" class="btn indigo">
-                        <span class="">post</span>
-                        <i class="material-icons">post</i>
-                    </a>
-                </li>
+            <ul class="hide-on-med-and-down ull" >
                 <li>
                     <a href="#" class="btn pink">
                         <span class="">sign</span>
                         <i class="material-icons ">sign</i>
                 </a>
             </li> 
+                <li>
+                    <a href="#" class="btn indigo">
+                        <span class="">post</span>
+                        <i class="material-icons">post</i>
+                    </a>
+                </li>
             <li>
                 <a href="#" class="btn blue ">
                     <span>Email</span>
@@ -148,23 +192,48 @@
             </div>
         </div>
     </div>
-<section class="cotainer section hide-on-larg-and-med" id="photo's">
-    <div class="row">
-        <div class="col s6 ">
-            <img src="f.jpg" alt="" class="responsive-img ">
+    <div class="hide-on-large-only"> 
+    <form action="" class="for container section" >
+        <div class="card">
+            <div class="card-imge">
+                <img src="f.jpg" alt="" class=" im">
+                <img src="h.jpg" alt="" class=" im">
+            </div>
+           <div class="card-title"> <h3 class="aaa" >Hair color with emojes</h3></div>
+            <div class="card-content">
+                <p class="aaa">r  aspernatur quisquam? Sit dignissimos ex aperiam?</p>
+            </div>
         </div>
-        <div class="col s12 ">
-            <h2 class="indigo-text text-darken-3 ">Kandahari</h2>
-            <p>Lorem ipsum dolor sit.</p>
-        </div>
-    </div>
-</section>
+        </form><form action="" class="for container section" >
+            <div class="card">
+                <div class="card-imge">
+                    <img src="k.jpg" alt="" class=" im">
+                    <img src="i.jpg" alt="" class=" im">
+                </div>
+               <div class="card-title"> <h3 class="aaa" >boys ring</h3></div>
+                <div class="card-content">
+                    <p class="aaa">r  aspernatur quisquam? Sit dignissimos ex aperiam?</p>
+                </div>
+            </div>
+            </form><form action="" class="for container section" >
+                <div class="card">
+                    <div class="card-imge">
+                        <img src="f.jpg" alt="" class=" im">
+                        <img src="d.jpg" alt="" class=" im">
+                    </div>
+                   <div class="card-title"> <h3 class="aaa" >girla liked</h3></div>
+                    <div class="card-content">
+                        <p class="aaa">r  aspernatur quisquam? Sit dignissimos ex aperiam?</p>
+                    </div>
+                </div>
+                </form></div>
 <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
             <script>
         $(Document).ready(function(){
         $('.sidenav').sidenav();
+        $('.modal').modal();
         });
             </script>
 </body>
