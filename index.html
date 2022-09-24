@@ -7,58 +7,17 @@
     <!-- Compiled and minified CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  
+    media="screen,projection"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="Css/style.css">
     <title>Document</title>
-    <style>
-        header{
-            background-image: url('g.jpg');
-            background-size: cover;
-            background-position: center;
-            min-height:162px;
-            
-            
-        }
-        .a{
-            margin: 0px;
-            
-        }
-        .te{
-            display: inline;
-        }
-        .aaa{
-            display: inline;
-            text-align:center;
-        }
-        .im{
-            display: inline;
-            height: 20rem;
-            width: 40%;
-        }
-        .for{
-            border: 2px solid rgb(19, 29, 19);
-            margin-top: 5rem;
-        }
-        .ull{
-            list-style-type: none;
-        }
-        .ull li{
-            display: inline;
-        }
-        .mod{
-            color: black;
-        }
-    
-    @media screen and (max-width:670px){
-        header{
-        min-height:300px;
-            }
-        }
+  <style>
 
-    </style>
+  </style>
 </head>
 <body>
-    
+     
     <header>
         <nav class="nave-wrapper transparent n">
             <div class="container a">
@@ -66,7 +25,7 @@
                 <a href=""class="sidenav-trigger " data-target="mobile-menu">
                     <i class="material-icons ">menu</i>
                 </a>
-                <ul>
+                <!-- <ul>
                     <li><a href="#searchh" class="btn orange modal-trigger">search</a>
                     <div class="modal mod" id="searchh">
                         <div class="modal-comtent">
@@ -90,8 +49,10 @@
                         </div>
                     </div>
                 </li>
-                </ul>
-            </nav>
+                </ul> -->
+</nav>
+
+
             <ul class="hide-on-med-and-down ull" >
                 <li>
                     <a href="#" class="btn pink">
@@ -112,18 +73,45 @@
                 </a>
             </li>
         </ul>
-<ul class="sidenav grey lighten-2" id="mobile-menu"> 
-        <li><a href="#" >Sign</a></li>
-        <li><a href="#" >Post</a></li>
-        <li><a href="#" >Contect</a></li>
-    </ul>
-</header>
+        <ul class="sidenav grey lighten-2" id="mobile-menu"> 
+            <li><a href="#" >Sign</a></li>
+            <li><a href="#" >Post</a></li>
+            <li><a href="#" >Contect</a></li>
+        </ul>
+    </header>
+    <div class="search-div">
+        <ul>
+            <li>
+                <input type="text" placeholder="type what you want">
+            </li>
+            <li>
+
+                <select>
+                    <option value="">Kandahar</option>
+                    <option value="">Helmand</option>
+                    <option value="">Herath</option>
+                    <option value="">Nim roz</option>
+                </select>
+            </li>
+            <li>
+        <select>
+            <option value="">electronics</option>
+            <option value="">Machinary</option>
+            <option value="">Mobile and Computer</option>
+            <option value="">Home Eq</option>
+        </select>
+            </li>
+            <li>
+                <button>Search</button>
+            </li>
+        </ul>
+    </div>
 <div class="container hide-on-med-and-down">
     <div class="row">
             <div class="col s6 m3 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="b.jpg" alt="" class="responsive-img">
+                        <img src="img/b.jpg" alt="" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, accusamus.</p>
@@ -133,7 +121,7 @@
             <div class="col s6 m3 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="b.jpg" alt="" class="responsive-img">
+                        <img src="img/b.jpg" alt="" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, accusamus.</p>
@@ -143,7 +131,7 @@
             <div class="col s6 m3 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="h.jpg" alt="" class="responsive-img">
+                        <img src="img/h.jpg" alt="" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, accusamus.</p>
@@ -153,7 +141,7 @@
             <div class="col s6 m3 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="i.jpg" alt="" class="responsive-img">
+                        <img src="img/i.jpg" alt="" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, accusamus.</p>
@@ -163,7 +151,7 @@
             <div class="col s6 m3 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="h.jpg" alt="" class="responsive-img">
+                        <img src="img/h.jpg" alt="" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, accusamus.</p>
@@ -173,7 +161,7 @@
             <div class="col s6 m3 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="j.jpg" alt="" class="responsive-img">
+                        <img src="img/j.jpg" alt="" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, accusamus.</p>
@@ -183,7 +171,7 @@
             <div class="col s6 m3 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="e.jpg" alt="" class="responsive-img">
+                        <img src="img/e.jpg" alt="" class="responsive-img">
                     </div>
                     <div class="card-content">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, accusamus.</p>
@@ -196,8 +184,8 @@
     <form action="" class="for container section" >
         <div class="card">
             <div class="card-imge">
-                <img src="f.jpg" alt="" class=" im">
-                <img src="h.jpg" alt="" class=" im">
+                <img src="img/f.jpg" alt="" class=" im">
+                <img src="img/h.jpg" alt="" class=" im">
             </div>
            <div class="card-title"> <h3 class="aaa" >Hair color with emojes</h3></div>
             <div class="card-content">
@@ -207,8 +195,8 @@
         </form><form action="" class="for container section" >
             <div class="card">
                 <div class="card-imge">
-                    <img src="k.jpg" alt="" class=" im">
-                    <img src="i.jpg" alt="" class=" im">
+                    <img src="img/k.jpg" alt="" class=" im">
+                    <img src="img/i.jpg" alt="" class=" im">
                 </div>
                <div class="card-title"> <h3 class="aaa" >boys ring</h3></div>
                 <div class="card-content">
@@ -218,8 +206,8 @@
             </form><form action="" class="for container section" >
                 <div class="card">
                     <div class="card-imge">
-                        <img src="f.jpg" alt="" class=" im">
-                        <img src="d.jpg" alt="" class=" im">
+                        <img src="img/f.jpg" alt="" class=" im">
+                        <img src="img/d.jpg" alt="" class=" im">
                     </div>
                    <div class="card-title"> <h3 class="aaa" >girla liked</h3></div>
                     <div class="card-content">
